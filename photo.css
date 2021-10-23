@@ -1,16 +1,28 @@
-*{
-margin: 0 auto;
-
+* {
+  margin: 0 auto;
+  
+}
+#center {
+  margin-left: 45px;
+  border-left:12px solid springgreen;
+}
+img {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  
+}
+nav {
+    font-size: large;
+  text-transform: uppercase;
+  color: black;
+  padding-left: 55px;
+  border-bottom: 12px solid springgreen;
+  
+}
+img:hover{
+transform: scale(2);
 
 }
-#center{
-    margin-left: 45px;
-}
-img{
-    width:400px;
-    height:400px ;
-    margin: 10px;
-}
-
 
 
