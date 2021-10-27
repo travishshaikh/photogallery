@@ -1,28 +1,40 @@
 * {
   margin: 0 auto;
-  
 }
+
 #center {
   margin-left: 45px;
-  border-left:12px solid springgreen;
+  border-left: 12px solid springgreen;
+  border-right:12px solid springgreen;
+  border-bottom: 12px solid springgreen;
 }
+
 img {
+  border:2px solid black;
   width: 400px;
   height: 400px;
   margin: 10px;
-  
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  border-radius: 10px;
 }
+
 nav {
-    font-size: large;
+  border:12px solid springgreen;
+
+  text-align: center;
+  font-size: 700%;
   text-transform: uppercase;
-  color: black;
+
   padding-left: 55px;
-  border-bottom: 12px solid springgreen;
-  
+  background-position:center;
+  background-image: url("https://images.unsplash.com/photo-1542137722061-efd1cbdf156c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
 }
 img:hover{
-transform: scale(2);
+  transform: scale(1.1);
+  transition: all 3s;
 
 }
+
+
 
 
